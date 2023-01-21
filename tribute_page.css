@@ -23,13 +23,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(88, 54, 37);
     background-image: url(full-bloom.png);
-}
-
-figure {
     padding: 0px;
     margin: 0px;
-    padding: min(5px, 5%);
-    border: 3px solid rgb(88, 54, 37);
 }
 
 ul {
@@ -38,7 +33,9 @@ ul {
 }
 
 figcaption {
-    font-size: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 #intro {
@@ -70,4 +67,20 @@ figcaption {
 
 .title {
     text-align: center;
+}
+
+.painting-container {
+      height: 320px;
+      width: 500px;
+      margin: 15px;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: min(5px, 5%);
+      border: 2px solid rgb(170, 110, 81);
+      border-radius: 10px;
+}
+
+.painting {
+     height: 300px;
+     width: 500px;
+     border-radius: 5px;
 }
